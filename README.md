@@ -1,3 +1,97 @@
+# 📊 Task-Flow
+
+**Task-Flow** adalah aplikasi manajemen tugas yang dirancang untuk membantu pengguna mengatur dan menyelesaikan tugas dengan lebih efisien.
+
+---
+
+## 🚀 Fitur Utama
+
+- ✅ **Manajemen Tugas**: Tambahkan, edit, dan hapus tugas jika diizinkan oleh peran pengguna.
+- 📅 **Kalender Tugas**: Lihat tugas berdasarkan tanggal di tampilan kalender.
+- 👤 **Manajemen Pengguna**: Sistem autentikasi pengguna yang aman.
+
+---
+
+## 🛠️ Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/Faizpi/Task-Flow.git
+   cd Task-Flow
+   ```
+
+2. **Instal Dependensi**
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Konfigurasi Database**
+   - Salin file `.env.example` menjadi `.env`
+   - Sesuaikan konfigurasi database
+
+4. **Migrasi Database**
+   ```bash
+   php artisan migrate
+   ```
+
+5. **Jalankan Aplikasi**
+   ```bash
+   php artisan serve
+   ```
+
+6. **Akses di Browser**
+   - Buka [http://localhost:8000](http://localhost:8000)
+
+---
+
+## 💻 Teknologi yang Digunakan
+
+- **Laravel** – Backend Framework
+- **Blade** – Template Engine
+- **MySQL** – Database
+- **TailwindCSS** – Styling Framework
+
+---
+
+## 📸 Tangkapan Layar
+
+**Halaman Dashboard:**
+![Dashboard](screenshots/dashboard.png)
+
+**Halaman Kalender Tugas:**
+![Kalender Tugas](screenshots/calendar.png)
+
+---
+
+## 🤝 Kontribusi
+
+1. Fork repository ini.
+2. Buat branch baru: `git checkout -b fitur-baru`
+3. Commit perubahan: `git commit -m 'Menambahkan fitur baru'`
+4. Push branch: `git push origin fitur-baru`
+5. Ajukan Pull Request
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah **MIT License**. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+
+---
+
+## 📬 Kontak
+
+- **Nama:** Muhammad Faiz Bintang Pratama
+- **Email:** faizbintang1244@gmail.com
+- **GitHub:** [Faizpi](https://github.com/Faizpi)
+
+---
+
+🎯 **Task-Flow – Karena setiap tugas pantas mendapatkan perhatian!** 🚀
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
