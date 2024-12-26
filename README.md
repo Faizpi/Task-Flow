@@ -6,6 +6,7 @@
 
 ## 🚀 Fitur Utama
 
+- 📊 **Dashboard Statistik Tugas**: Menampilkan Statistik tugas pengguna.
 - ✅ **Manajemen Tugas**: Tambahkan, edit, dan hapus tugas jika diizinkan oleh peran pengguna.
 - 📅 **Kalender Tugas**: Lihat tugas berdasarkan tanggal di tampilan kalender.
 - 👤 **Manajemen Pengguna**: Sistem autentikasi pengguna yang aman.
@@ -57,10 +58,13 @@
 ## 📸 Tangkapan Layar
 
 **Halaman Dashboard:**
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
+
+**Halaman Daftar Tugas:**
+![Daftar Tugas](screenshots/DaftarTugas.png)
 
 **Halaman Kalender Tugas:**
-![Kalender Tugas](screenshots/calendar.png)
+![Kalender Tugas](screenshots/Kalender.png)
 
 ---
 
