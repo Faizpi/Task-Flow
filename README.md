@@ -25,11 +25,16 @@
    ```bash
    composer install
    npm install
+   npm run build
    ```
 
 3. **Konfigurasi Database**
    - Salin file `.env.example` menjadi `.env`
    - Sesuaikan konfigurasi database
+   - Generate an Encryption Key:
+     ```bash
+     php artisan key:generate
+     ```
 
 4. **Migrasi Database**
    ```bash
